@@ -1,0 +1,14 @@
+mode: both
+keys_path: ""
+model_name: ""
+system_prompt: ""
+output_file: "assets/relations.json"
+max_concurrent_per_key: 300
+max_retries: 5
+independent_relation_types:
+  - positional
+  - spatial
+  - temporal
+examples_per_type: 10
+category_file: "assets/categories.json"
+examples_per_pair: 5

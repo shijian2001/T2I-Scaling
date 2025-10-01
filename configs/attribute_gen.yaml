@@ -1,0 +1,20 @@
+# Main configuration for attribute generation
+model_name: ""
+system_prompt: ""  # Base system prompt
+
+# API configuration
+keys_path: ""  # Path to API keys file
+max_concurrent_per_key: 300
+max_retries: 5
+
+# Input/output configuration
+input_file: "assets/objects.json"
+output_file: "assets/attributes.json"
+
+# Generation control
+run_concept_generation: true
+run_value_generation: true
+
+# Generation parameters
+concepts_per_object: 5
+values_per_concept: 5

@@ -1,0 +1,8 @@
+keys_path: ""
+model_name: ""
+system_prompt: ""
+input_file: ""
+output_file: ""
+max_concurrent_per_key: 1
+max_retries: 50
+difficulty: "difficulty_{d_min}_{d_max}"
